@@ -1,0 +1,74 @@
+.Register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(24, 24, 27);
+    border-radius: 10px;
+    padding: 50px 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: monospace;
+}
+.profile{
+    height: 50px;
+    width: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: monospace;
+    gap: 10px;
+    font-size: 16px;
+    margin: 30px 0;
+}
+.input{
+    min-width: 450px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: monospace;
+    border-color: rgb(169, 112, 255);
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.input:hover{
+    border: 3px solid  rgb(169, 112, 255);
+    outline: none;
+} 
+.input:focus{
+    border: 3px solid  rgb(169, 112, 255);
+    outline: none;
+}
+.gap{
+    min-height: 10px;
+    color: transparent;
+    user-select: none;
+    font-size: 10px;
+}
+.button{
+    width: 100%;
+    margin: 15px 0 0 0;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: monospace;
+    background-color: rgb(169, 112, 255);
+    border-radius: 5px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.pagechange{
+    font-size: 14px;
+    font-family: monospace;
+    color:rgb(169, 112, 255);
+}

@@ -1,0 +1,17 @@
+.Video{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    float: left;
+    width: 100%;
+    overflow: auto;
+}
+.Video::-webkit-scrollbar{
+    height: 0;
+}
+
+.hr{
+    color: rgba(83,83,95,.48);
+}
